@@ -4,7 +4,7 @@ import sass from "gulp-sass";
 import minify from "gulp-csso";
 import autoprefixer from "gulp-autoprefixer";
 
-sass.compiler = require("node-sass");
+// var sass = require('gulp-sass')(require('sass'));
 
 const routes = {
   css: {
